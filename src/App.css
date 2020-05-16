@@ -1,0 +1,38 @@
+body{
+    background-color: blueviolet;
+}
+.App{
+    background-color: blue;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+}
+#to-do-form input:focus,#to-do-form button :focus{
+    outline: none;
+}
+#to-do-form input::placeholder{
+    color: black;
+
+}
+#to-do-form input{
+    background-color:green;
+    border: 0;
+    width: 200px;
+    height:10px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+#to-do-form button{
+    height: 46px;
+    width:70px;
+    border-radius: 5px;
+    border: 0;
+    background-color: yellow;
+    cursor: pointer;
+    font-weight: bolder;
+    color: black;
+} 
